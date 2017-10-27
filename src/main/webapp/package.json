@@ -1,0 +1,15 @@
+{
+  "name": "eg-casi-hackers-angular-xtrest",
+  "version": "1.0.0",
+  "description": "",
+  "author": "tinchodias@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-cookies": "^1.6.6",
+    "angular-ui-router": "^0.4.3",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "underscore": "^1.8.3"
+  }
+}

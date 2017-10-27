@@ -1,0 +1,4 @@
+
+<h1>Hello {{ authCtrl.user().username }}</h1>
+<span class="label-success" data-ng-repeat="role in authCtrl.user().roles">{{ role }}</span>
+<p>This view is visible to logged in users.</p>

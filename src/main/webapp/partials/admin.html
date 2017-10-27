@@ -1,0 +1,16 @@
+
+<h1>Administrate Users</h1>
+<table class="table table-striped" data-ng-hide="adminCtrl.loading">
+  <thead>
+    <tr>
+      <th>Username</th>
+      <th>Roles</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-ng-repeat="user in adminCtrl.users">
+      <td>{{ user.username }}</td>
+      <td><span data-ng-repeat="role in user.roles" class="label label-success">{{ role }}</span></td>
+    </tr>
+  </tbody>
+</table>
